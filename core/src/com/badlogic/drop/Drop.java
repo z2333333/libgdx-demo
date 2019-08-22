@@ -88,7 +88,7 @@ public class Drop extends ApplicationAdapter {
         // begin a new batch and draw the bucket and
         // all drops
         batch.begin();
-        batch.draw(bucketImage, bucket.x, bucket.y);
+            batch.draw(bucketImage, bucket.x, bucket.y);
         for(Rectangle raindrop: raindrops) {
             batch.draw(dropImage, raindrop.x, raindrop.y);
         }

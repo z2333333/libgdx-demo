@@ -74,7 +74,7 @@ public class Scene2dTest extends ApplicationAdapter {
         table.pack();
         table.setPosition(130, 100);
         stage.addActor(table);
-        table.toFront();
+
 
         final TextButton button = new TextButton("Fancy Background", skin);
 
@@ -94,7 +94,7 @@ public class Scene2dTest extends ApplicationAdapter {
                 System.out.println("fling " + velocityX + ", " + velocityY);
             }
 
-            public void zoom (InputEvent event, float initialDistance, float distance) {
+                public void zoom (InputEvent event, float initialDistance, float distance) {
                 System.out.println("zoom " + initialDistance + ", " + distance);
             }
 
